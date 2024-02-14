@@ -1,0 +1,9 @@
+<template>
+    <lightning-formatted-text value={objRecordId}></lightning-formatted-text>
+    <lightning-formatted-text value={objApiName}></lightning-formatted-text>
+    <!-- Neutral variant (default) -->
+    <lightning-button label="Cancel" title="" onclick={closeModal} class="slds-m-left_x-small"></lightning-button>
+
+    <!-- Brand variant: Identifies the primary action in a group of buttons -->
+    <lightning-button variant="brand" label="Show Swarm" onclick={navigateToRec} class="slds-m-left_x-small"></lightning-button>
+</template>
