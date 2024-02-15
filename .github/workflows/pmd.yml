@@ -8,6 +8,8 @@ name: pmd
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - force-app/main/default/apex/**
   pull_request:
     branches: [ "main" ]
   schedule:
