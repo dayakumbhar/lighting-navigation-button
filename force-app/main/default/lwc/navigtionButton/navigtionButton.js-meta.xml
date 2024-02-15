@@ -8,8 +8,8 @@
     </targets>
     <targetConfigs>
            <targetConfig targets="lightning__FlowScreen">
-            <property name="objRecordId" type="String" label="Record ID" description=" Record ID" role="inputOnly" default="0010600002EQcJNAA1"/>
-            <property name="objApiName" type="String" label="Object API Name" description="Object API Name" role="inputOnly" default="Account"/>
+            <property name="objRecordId" type="String" label="Record ID" description=" Record ID" role="inputOnly" default=""/>
+            <property name="objApiName" type="String" label="Object API Name" description="Object API Name" role="inputOnly" default=""/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
