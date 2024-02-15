@@ -3,6 +3,7 @@ name: Validate PR on develop branch
 
 # Definition when the workflow should run #
 on:
+    workflow_dispatch:
     push:
         branches: [ "develope" ]
     # The workflow will run whenever an event happens on a pull request
