@@ -1,6 +1,8 @@
 name: Automatic Pull Request
 
 on:
+  # The workflow can be run manually
+  workflow_dispatch:
   push:
     branches:
       - 'feature-*'
