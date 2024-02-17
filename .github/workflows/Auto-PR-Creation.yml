@@ -5,10 +5,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'feature-*'
+      - 'feature-**'
   create:
     branches:
-      - 'feature-*'
+      - 'feature-**'
 
 jobs:
   create_pull_request:
