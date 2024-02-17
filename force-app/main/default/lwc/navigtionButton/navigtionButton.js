@@ -20,7 +20,6 @@ export default class NavigtionButton extends NavigationMixin(LightningElement)  
 
   navigateToRec(event){
     console.log(this.objRecordId);
-    this[NavigationMixin.GenerateUrl](this.caseRecordPageRef).then(url => this.url = url);
     this[NavigationMixin.Navigate](this.caseRecordPageRef);
   }
 }
