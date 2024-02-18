@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Print a message
-        run: echo "A new tag matching the pattern was pushed: ${{ github.ref }}"
+        run: echo "A new tag matching the pattern was pushed"
