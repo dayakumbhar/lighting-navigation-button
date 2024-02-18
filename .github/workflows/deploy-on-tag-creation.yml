@@ -1,0 +1,13 @@
+name: Tag Created Workflow
+
+on:
+  create
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Print a message if this is a tag
+        if: github.ref_type == 'tag'
+        run: echo "A new tag was created"
